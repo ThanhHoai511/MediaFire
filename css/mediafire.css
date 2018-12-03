@@ -1,0 +1,693 @@
+*{margin: 0;padding: 0;border: 0;}
+body{
+	min-height: 800px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+/* header */
+header{
+	padding-left: 80px;
+	padding-right: 75px;
+	width: 90%;
+	min-height: 63px;
+	background-color:#0045a6;
+	position: fixed;
+	z-index: 10;
+}
+header div.head-left{
+	float: left;
+}
+header div.head-left h2.logo a{
+	display: block;
+	width: 300px;
+	height: 100%;
+	background: url('https://cdnssl.mediafire.com/images/backgrounds/header/mf_logo_full_color_reversed.svg');
+	background-size: auto 108%;
+	background-repeat: no-repeat;
+    margin-top:  20px;
+    margin-left: 54px;
+}
+header div.head-right{
+	float: right;
+	line-height: 63px;
+	padding-right: 80px;
+}
+header div.head-right a.btn{
+	padding-left: 10px;
+	padding-right: 7px;
+	height: 32px;
+	background-color: #0077ff;
+	font-size: 10px;
+	font-weight: 100;
+	padding: 10px;
+	color: #fff;
+}
+header div.head-right a.btn:hover{
+	background-color: #006deb;
+}
+header div.head-right a.btn-group{
+	margin-right: 30px;
+	display: inline-block;
+}
+header div.head-right a#spe{
+	padding-top: 11px;
+}
+header div.head-right div.btn-group div.f, div.head-right div.btn-group div.t{
+	margin-top: 5px;
+	display: inline-block;
+	position: relative;
+	bottom: -7px;
+	width: 21px;
+	height: 21px;
+	background-size: auto 10%;
+    background-repeat: no-repeat;
+}
+header div.head-right div.btn-group div.f{
+	background: #0101DF url('https://cdnssl.mediafire.com/images/backgrounds/newHome/loginActivateFB_v2.png');
+}
+header div.head-right div.btn-group div.t{
+    background: #0101DF url('https://cdnssl.mediafire.com/images/backgrounds/newHome/loginActivateTW_v2.png');
+    margin-right: 7px;
+}
+/* section */
+section{
+    padding-top: 70px;
+    width: 100%;
+	min-height: 2000px;
+}
+/* section first */
+section div.first{
+	width: 100%;
+	margin-top: -7px;
+	height: 530px;
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/hero_tile.png'); 
+}
+section div.first div.file{
+	padding-top: 145px;
+	padding-left: 280px;
+}
+section div.first div.file a{
+	color: white;
+	font-size: 47px;
+	font-weight: bold;
+}
+section div.first div.file a:hover{
+	text-decoration: none;
+}
+section div.first div.start{
+   display: block;
+   height: 40px;
+   width: 350px;
+   background-color: #66cc33;
+   margin-left: 450px;
+   margin-top: 90px;
+   padding-top: 20px;
+   border-radius: 3px;
+}
+section div.first div.start:hover{
+	background-color: #5ebc2f;
+	cursor: pointer;
+}
+section div.first div.start a{
+	font-size: 16px;
+	color: white;
+	padding-left: 30px;
+	text-align: center;
+}
+section div.first div.start a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+/* section second */
+section div.second{
+	width: 100%;
+	height: 180px;
+}
+section div.second p{
+	font-size: 15px;
+	color: grey;
+	padding-left: 600px;
+	padding-top: 20px;
+}
+
+section div.second div.giz,div.second div.life,div.second div.net,div.second div.tech,div.second div.eng{
+	display: inline-block;
+	width: 200px;
+	height: 180px;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	margin-top: 40px;
+    
+}
+section div.second div.giz{
+	background-image:url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/gizmodo.svg');
+	background-size: auto 12%;
+    margin-left: 200px;
+}
+section div.second div.life{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/lifehacker.svg');
+	background-size: auto 15%;
+    margin-left: 20px;
+}
+section div.second div.net{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/cnet.svg');
+	background-size: auto 37%;
+    margin-left: 20px;
+}
+section div.second div.tech{
+    background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/techcrunch.svg');
+	background-size: auto 14%;
+    margin-left: 20px;
+    
+}
+section div.second div.eng{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/engadget.svg');
+	background-size: auto 15%;
+    margin-left: 20px;
+}
+/* second third */
+section div.third{
+	width: 100%;
+	min-height: 680px;
+	background-color: #f3f4f5;
+}
+section div.third h2{
+	font-size: 40px;
+	color: #0077ff;
+	text-align: center;
+	padding-top: 70px;
+}
+section div.third p.intro{
+	font-size: 21px;
+	width: 1050px;
+	text-align: center;
+	color: #2e2f3d;
+	padding-left: 150px;
+	padding-top: 40px;
+}
+section div.third div.anh{
+	width: 100%;
+	height: 400px;
+	margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+section div.third div.anh div.photo{
+	display: inline-block;
+	width: 200px;
+	height: 400px;
+	margin: 30px;
+}
+section div.third div.anh div.photo div.share,div.third div.anh div.photo div.coll,div.third div.anh div.photo div.store,div.third div.anh div.photo div.access{
+	width: 200px;
+	height: 200px;
+	background-size: auto 90%;
+    background-repeat: no-repeat;
+}
+section div.third div.anh div.photo div.share{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/share_color.svg');
+}
+section div.third div.anh div.photo div.coll{
+    background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/collaborate.svg');
+}
+section div.third div.anh div.photo div.store{
+    background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/store_color.svg');
+}
+section div.third div.anh div.photo div.access{
+    background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/access.svg');
+}
+section div.third div.anh div.photo h3{
+	color: #282f3d;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+section div.third div.anh div.photo p.note{
+	padding-top: 20px;
+	color: #888d9c;
+	font-size: 14px;
+}
+/* section four */
+section div.four{
+	width: 100%;
+	min-height: 650px;
+	background-color: #282f3d;
+}
+section div.four div.heart{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/heart.svg');
+	background-repeat: no-repeat;
+	background-size: auto 40%;
+	width: 100px;
+	height: 100px;
+	margin-left: 600px;
+	background-position: center;
+}
+section div.four h4{
+    font-size: 40px;
+    color: #07f;
+    text-align: center;
+    font-weight: bold;
+}
+section div.four p.add{
+	width: 587px;
+	font-size: 19px;
+	color: white;
+	text-align: center;
+	padding-left: 380px;
+	padding-top: 40px;
+}
+
+section div.four div.noti{
+	width: 80%;
+	height: 200px;
+	margin-left: 150px;
+}
+section div.four div.noti div.tbao{
+	float: left;
+	display: inline-block;
+    width: 28%;
+    background: #e8e9ec;
+    color: #282f3d;
+    text-align: left;
+    margin: 0 2% 30px;
+    box-sizing: border-box;
+    padding: 20px 30px 30px;
+    border-radius: 4px;
+    vertical-align: text-top;
+    position: relative;
+    min-height: 220px;
+    margin-top: 70px;
+}
+section div.four div.noti div.tbao::after{
+	position: absolute;
+	bottom: -7px;
+	content: " ";
+	transform: rotate(45deg);
+	width: 15px;
+	height: 15px;
+	left: 140px;
+	background: #e8e9ec;
+	z-index: 2;
+}
+section div.four div.noti div.tbao p.two{
+	padding-top: 15px;
+}
+section div.four div.noti div.au{
+	width: 100%;
+	min-height: 30px;
+}
+section div.four div.noti div.au div.end{
+	float: left;
+	width: 28%;
+	text-align: center;
+    margin: 0 2% 80px;
+    color: #07f;
+}
+/* sectin five */
+section div.five{
+    width: 100%;
+    height: 400px;
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/hero_tile.png'); 
+}
+section div.five div.lua{
+	width: 100%;
+	height: 100px;
+	padding-top: 100px;
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/mf_logo_flame_reversed.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 25%;
+}
+section div.five h5{
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	margin-top: -30px;
+}
+section div.five div.yes{
+	width: 300px;
+	height: 40px;
+	background-color: #66cc33;
+	font-size: 16px;
+	margin-left: 530px;
+	color: white;
+	font-weight: 100;
+    text-align: center;
+    padding-top: 19px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+section div.five div.yes:hover{
+	background-color: #5ebc2f;
+	cursor: pointer;
+}
+/* section six */
+section div.six{
+	font-size: 20px;
+	width: 100%;
+}
+section div.six p.top{
+    font-size: 45px;
+    color: #07f;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+	padding-bottom: 40px;
+}
+section div.six p.vb{
+	font-size: 22px;
+	text-align: center;
+	font-weight: 100;
+	color: #282f3d;
+	padding-bottom: 6px;
+}
+section div.six div.ovuong{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+}
+section div.six div.ovuong div.vung{
+	display: inline-block;
+	text-align: left;
+	width: 300px;
+	padding: 30px;
+}
+section div.six div.ovuong div.vung div.upto{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/tf_10gb.svg');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 100px;
+	padding-bottom: 10px;
+}
+section div.six div.ovuong div.vung div.unli{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/tf_downloads.svg');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 100px;
+	padding-bottom: 10px;
+
+}
+section div.six div.ovuong div.vung div.easy{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/tf_share.svg');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 100px;
+	padding-bottom: 10px;
+
+}
+section div.six div.ovuong div.vung div.multi{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/tf_multi_upload.svg');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 100px;
+	padding-bottom: 25px;
+}
+section div.six div.ovuong div.vung div.org{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/tf_organize.svg');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 100px;
+	padding-bottom: 10px;
+
+}
+section div.six div.ovuong div.vung div.onetime{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/tf_1_time_links.svg');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 100px;
+	padding-bottom: 10px;
+}
+section div.six div.ovuong div.vung h6{
+	font-size: 18px;
+	font-weight: bold;
+	color: #282f3d;
+}
+section div.six div.ovuong div.vung p.vanban{
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 20px;
+	padding-top: 10px;
+	color: #282f3d;
+}
+section div.six p.nomatter{
+	font-size: 32px;
+	font-weight: 100;
+	padding-top: 40px;
+	color: #07f;
+	text-align: center;
+}
+section div.six div.last{
+	width: 100%;
+	height: 300px;
+}
+section div.six div.last div.andr{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/tf_apps.svg');
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	margin-left: 150px;
+	margin-right: -160px;
+	margin-top: -10px;
+}
+section div.six div.last div.thietbi{
+	float: left;
+	width: 850px;
+	padding-left: 115px;
+	padding-top: 30px;
+}
+section div.six div.last div.thietbi p.iphone{
+    font-size: 16px;
+    font-weight: bold;
+    color: #282f3d;
+    padding-bottom: 20px;
+}
+section div.six div.last div.thietbi p.upload{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #282f3d;
+}
+section div.six div.last a{
+	font-size: 50px;
+}
+section div.six a.downloadnow{
+	padding-left: 300px;
+	color: blue;
+}
+section div.six a.downloadnow::after{
+	padding-left: 20px;
+	content: ">>";
+}
+/* section seven */
+section div.seven{
+	width: 100%;
+	min-height: 1200px;
+	background-color: #f3f4f5;
+	padding-top: 80px;
+}
+section div.seven a{
+	font-size: 38px;
+	font-weight: bold;
+	padding-left: 420px;
+	color: #07f;
+}
+section div.seven p.demand{
+    width: 1030px;
+    font-size: 21px;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 30px;
+    line-height: 30px;
+    font-weight: 100;
+    color: #282f3d;
+}
+section div.seven div.car{
+	width: 400px;
+	height: 300px;
+    background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/pro_driver.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 900px;
+    background-size: auto 75%;
+}
+section div.seven div.row{
+	width:100%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	float: left;
+}
+section div.seven div.row div.pro{
+	float: left;
+	width: 370px;
+	margin: 0 auto;
+}
+section div.seven div.row div.pro p.tit{
+	font-size: 17px;
+	color: #282f3d;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+section div.seven div.row div.pro p.para{
+	font-size: 15px;
+	color: #282f3d;
+	line-height: 19px;
+	width: 310px;
+}
+section div.seven div.row div.pro div.picture1{
+   background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/pf_1tb.svg');
+   background-repeat: no-repeat;
+   width: 100px;
+   height: 100px;
+   background-size: auto 90%;
+}
+section div.seven div.row div.pro div.picture2{
+   background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/pf_no_ads.svg');
+   background-repeat: no-repeat;
+   width: 100px;
+   height: 100px;
+   background-size: auto 90%;
+}
+section div.seven div.row div.pro div.picture3{
+   background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/pf_web_uploads.svg');
+   background-repeat: no-repeat;
+   width: 100px;
+   height: 100px;
+   background-size: auto 90%;
+}
+section div.seven div.row div.pro div.picture4{
+   background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/pf_direct_download.svg');
+   background-repeat: no-repeat;
+   width: 100px;
+   height: 100px;
+   background-size: auto 90%;
+}
+section div.seven div.row div.pro div.picture5{
+   background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/pf_bulk_download.svg');
+   background-repeat: no-repeat;
+   width: 100px;
+   height: 100px;
+   background-size: auto 90%;
+}
+section div.seven div.row div.pro div.picture6{
+   background-image: url('https://cdnssl.mediafire.com/images/backgrounds/home_unicorn/pf_1_time.svg');
+   background-repeat: no-repeat;
+   width: 100px;
+   height: 100px;
+   background-size: auto 90%;
+}
+section div.seven div.feature{
+	width: 400px;
+	height: 40px;
+	background-color: #66cc33;
+	font-size: 16px;
+	margin-left: 500px;
+	color: white;
+	font-weight: 100;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+section div.seven div.feature:hover{
+	background-color: #5ebc2f;
+	cursor: pointer;
+}
+/* footer */
+footer{
+	width: 100%;
+	min-height: 400px;
+	background-color: #282F3D;
+	margin: auto;
+	padding-top: 10px;
+}
+footer div.sele{
+	background-image: url('https://cdnssl.mediafire.com/images/backgrounds/newHome/sections/texas.png');
+	background-repeat: no-repeat;
+	width: 1300px;
+	height: 200px;
+	background-position: center;
+	background-size: auto 45%;
+}
+footer div.sele p{
+	color: white;
+	font-size: 17px;
+	padding-top: 85px;
+	padding-left: 560px;
+}
+footer div.menudoc{
+	width: 1280px;
+	margin-left: 180px;
+}
+footer div.menudoc div.tools{
+	width: 250px;
+	float: left;
+}
+footer div.menudoc div.tools h6.title{
+	font-size: 14px;
+	color: white;
+	font-weight: 100;
+	letter-spacing: 1.5px;
+	padding-bottom: 15px;
+}
+footer div.menudoc div.tools a{
+	font-size: 12px;
+	color: #888d9c;
+	display: block;
+	padding-bottom: 5px;
+}
+footer div.menudoc div.tools a:hover{
+	color: white;
+}
+footer div.lastest{
+	width: 1280px;
+	padding-top: 150px;
+}
+footer div.lastest div.p{
+	float: left;
+}
+footer div.lastest p{
+	padding-left: 170px;
+	color: white;
+	font-size: 12px;
+}
+footer div.lastest div.menuver{
+	float: left;
+}
+footer div.lastest a{
+	padding-left: 15px;
+	font-size: 13px;
+	color: #888d9c;
+}
+footer div.lastest a:hover{
+	color: white;
+}
+footer div.lastest div.icon4{
+	float: left;
+}
+footer div.lastest div.icon4 div.fb,div.lastest div.icon4 div.tw,div.lastest div.icon4 div.gg,div.lastest div.icon4 div.b{
+	float: left;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+footer div.lastest div.icon4 div.fb{
+	background-image: url('https://cdnssl.mediafire.com/images/icons/socialMedia/socialIcons28.png');
+}
+footer div.lastest div.icon4 div.tw{
+	background-image: url('https://cdnssl.mediafire.com/images/icons/socialMedia/socialIcons28.png');
+}
+footer div.lastest div.icon4 div.gg{
+	background-image: url('https://cdnssl.mediafire.com/images/icons/socialMedia/socialIcons28.png');
+}
+footer div.lastest div.icon4 div.b{
+	background-image: url('https://cdnssl.mediafire.com/images/icons/socialMedia/socialIcons28.png');
+}
